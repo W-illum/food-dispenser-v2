@@ -1,0 +1,11 @@
+menu "Feeding Schedule"
+
+    config FEEDING_SCHEDULE_MAX_FEEDS
+        int "Maximum number of feeding times"
+        range 1 16
+        default 4
+        help
+            Maximum number of scheduled feeding times the
+            schedule can hold.
+
+endmenu
